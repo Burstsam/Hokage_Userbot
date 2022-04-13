@@ -1,8 +1,8 @@
 <h3 align="center">THE CLONE OF</h3>
-<h2 align="center"> <a href="https://github.com/BURSTSAM/HOKAGE-USERBOT">🔥 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 🔥</a></h2>
+<h2 align="center"> <a href="https://github.com/BURSTSAM/HOKAGE-USERBOT">🔥 The HokageBot 🔥</a></h2>
 
 
-<h1 align="center">⚡ 𝙼𝙰𝙵𝙸𝙰 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ⚡</h1>
+<h1 align="center">⚡ Hokage Userbot ⚡</h1>
 
 
 [![HOKAGE LOGO](https://telegra.ph/file/b61486075c6ef73dd0d12.jpg)](https://t.me/MafiaBot_Support)
@@ -104,7 +104,7 @@ notifications in Update Channel.
 
 ![](https://www.gnu.org/graphics/gplv3-or-later.png)
 
-Copyright (C) 2021 H1M4N5HU0P
+Copyright (C) 2021 
 
 Poject [Hokage Bot](https://github.com/Burstsam/Hokage_Userbot) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
