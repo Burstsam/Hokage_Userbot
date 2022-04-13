@@ -1,11 +1,11 @@
-<h3 align="center">𝚃𝙷𝙴 𝙲𝙻𝙾𝙽𝙴 𝙾𝙵</h3>
-<h2 align="center"> <a href="https://github.com/H1M4N5HU0P/MAFIA-USERBOT">🔥 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 🔥</a></h2>
+<h3 align="center">THE CLONE OF</h3>
+<h2 align="center"> <a href="https://github.com/BURSTSAM/HOKAGE-USERBOT">🔥 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 🔥</a></h2>
 
 
 <h1 align="center">⚡ 𝙼𝙰𝙵𝙸𝙰 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ⚡</h1>
 
 
-[![MAFIA LOGO](https://telegra.ph/file/b61486075c6ef73dd0d12.jpg)](https://t.me/MafiaBot_Support)
+[![HOKAGE LOGO](https://telegra.ph/file/b61486075c6ef73dd0d12.jpg)](https://t.me/MafiaBot_Support)
 
 
 <h2 align="center">The owner would not be responsible for any kind of bans due to the bot.</h2>
@@ -30,7 +30,7 @@
 
 • [JaaduBot](https://github.com/Amberyt/JaaduBot)
 
-• [Uniborg](https://github.com/spechide/uniborg)
+• [MafiaBot](https://github.com/H1M4N5HU0P/MAFIA-BOT)
 
 • [Hêllẞø†](https://github.com/thevaders/vader)
 
@@ -42,12 +42,12 @@
 
 ```
 Get help regarding setting up 
-your MAFIABOT in our official 
+your HokageBot in our official 
 support Group and get updates
 notifications in Update Channel.
 ```
 
-<a href="https://t.me/MafiaBot_Support"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Hokage_Userbot"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 </details>
 
 <h1 align="center">⚙️ SET-UP ⚙️</h1>
@@ -55,19 +55,17 @@ notifications in Update Channel.
 <details>
   <summary> • 🌟GENERATE STRING SESSION🌟 • </summary>
 
-- Termux
-    - Clone `git clone https://github.com/H1M4N5HU0P/MAFIA-BOT.git`
-    - Then Do  `cd MAFIA-BOT`
-    - Run String Generator By
-           `bash string.sh`
-    - Then Fill The Required Details.
-    - API ID, API HASH, PHONE NUMBER (WITH COUNTRY CODE)
+- Most Easy Way 
+            - Go To Telegram 
+            - Search @HokageStringGen .
+            - Fill The Details.
+            - It Will Generate Your String For You.
  
 - Repl Run
     - Click [Here](https://replit.com/@H1M4N5HU0P/MAFIABOT#main.py) to open Repl run.
     - Click On Green Play Button.
     - Wait for a while then fill the details.
-    - String will be saved in your Saved Message.
+    - String will be saved in y  our Saved Message.
 </details>
 
 <details>
@@ -80,8 +78,9 @@ notifications in Update Channel.
 - You Can Deploy it on 
     - [Zeet](https://zeet.co/new)
     - [Uffizzi](https://uffizzi.com)
+    - [Heroku](https://heroku.com)
     - Any Other VPS.
-    - No support for Termux Yet.
+   
 
 ## Mandatory Vars
 
@@ -90,7 +89,7 @@ notifications in Update Channel.
     - `APP_ID`:   You can get this value from [here](https://my.telegram.org)
     - `API_HASH`:   You can get this value from [here](https://my.telegram.org)
     - `ENV`:   `ANYTHING`
-    - `STRING_SESSION`:   You can get this value from running `python3 string_session.py` in termux after cloning this repo. Or just using [repl run](https://replit.com/@H1M4N5HU0P/MAFIABOT#main.py)
+    - `STRING_SESSION`:   You can get this value from [Hokage String Generator](https://HokageStringGen)
     - `LOG_GROUP`:   Make a Channel Or Group and get it's id.
     - `DATABASE_URL`:   Make a database on elephant sql and paste the url.
     - `DB_URI`:   Same as `DATABASE_URL`
@@ -107,7 +106,7 @@ notifications in Update Channel.
 
 Copyright (C) 2021 H1M4N5HU0P
 
-Poject [𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃](https://github.com/H1M4N5HU0P/MAFIA-BOT) is free software: you can redistribute it and/or modify
+Poject [Hokage Bot](https://github.com/Burstsam/Hokage_Userbot) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
