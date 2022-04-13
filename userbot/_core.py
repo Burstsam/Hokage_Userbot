@@ -10,10 +10,10 @@ from userbot import *
 from userbot import bot as mafiabot
 
 DELETE_TIMEOUT = 5
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
-mafia_logo = "./H1M4N5HU0P/mafiabot_logo.jpg"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hokage User"
+mafia_logo = "./Hokage_logo.jpg"
 h1m4n5hu0p = mafiabot.uid
-mafia = f"[{DEFAULTUSER}](tg://user?id={h1m4n5hu0p})"
+mafia = f"[{DEFAULTUSER}](tg://user?id={KingUltroid})"
 
 @mafiabot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
 @mafiabot.on(sudo_cmd(pattern=r"send (?P<shortname>\w+)", allow_sudo=True))
