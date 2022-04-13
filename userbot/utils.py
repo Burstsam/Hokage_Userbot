@@ -78,7 +78,7 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["userbot.plugins." + shortname] = mod
-        LOGS.info("⚡🔥MafiaBot⚡🔥 - Successfully imported " + shortname)
+        LOGS.info("⚡🔥Hokage Userbot⚡🔥 - Successfully imported " + shortname)
 
 
 def remove_plugin(shortname):
@@ -340,7 +340,7 @@ def errors_handler(func):
 
             text = "**USERBOT CRASH REPORT**\n\n"
 
-            link = "[here](https://t.me/sn12384)"
+            link = "[here](https://t.me/hokage_userbot)"
             text += "If you wanna you can report it"
             text += f"- just forward this message {link}.\n"
             text += "Nothing is logged except the fact of error and date\n"
