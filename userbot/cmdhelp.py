@@ -1,4 +1,4 @@
-from userbot import CMD_HELP, CMD_HELP_BOT
+Uom userbot import CMD_HELP, CMD_HELP_BOT
 import os
 
 COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r".")
@@ -64,9 +64,9 @@ class CmdHelp:
 
         result = f"**📗 File :** `{self.FILE}`\n"
         if self.WARNING == "" and self.INFO == "":
-            result += f"**⬇️ Official:** {'✅' if self.IS_OFFICIAL else '❌'}\n\n"
+            result += f"**⬇️ Hokage's Official:** {'✅' if self.IS_OFFICIAL else '❌'}\n\n"
         else:
-            result += f"**⬇️ Official:** {'✅' if self.IS_OFFICIAL else '❌'}\n"
+            result += f"**⬇️ Hokage's Official:** {'✅' if self.IS_OFFICIAL else '❌'}\n"
 
             if self.INFO == "":
                 if not self.WARNING == "":
