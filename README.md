@@ -57,7 +57,7 @@ notifications in Update Channel.
 
 - Most Easy Way 
             - Go To Telegram 
-            - Search @HokageStringGen .
+            - Search @HokageStringGenBot .
             - Fill The Details.
             - It Will Generate Your String For You.
  
