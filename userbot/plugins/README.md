@@ -19,7 +19,7 @@ async def hello_world(event):
     if event.fwd_from:
         return
     await eor(event, "**HELLO WORLD**")
-
+#Burstsam Just Edited The Bot . Credits Go To Hell Bot And Mafia Bot.
 CmdHelp("hello").add_command(
   "hello", None, "Hello World Edit."
 ).add
