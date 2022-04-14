@@ -30,11 +30,11 @@ from userbot.cmdhelp import *
 from mafiabot.utils import *
 from userbot.Config import Config
 
-mafia_help_pic = Config.HELP_PIC or "https://telegra.ph/file/f6a46c6251bb8a5bea300.mp4"
+mafia_help_pic = Config.HELP_PIC or "https://telegra.ph/file/f22d6806b90b41adafc67.jpg"
 mafia_row = Config.BUTTONS_IN_HELP
 mafia_emoji = Config.EMOJI_IN_HELP
 # thats how a lazy guy imports
-# MafiaBot
+# HokageBot
 
 def button(page, modules):
     Row = mafia_row
@@ -98,20 +98,20 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         elif event.text=='':
             result = builder.article(
                 "@MafiaBot_Support",
-                text=f"""**Hey![🤗]({mafia_help_pic}) This is [MafiaBot.](https://t.me/MafiaBot_Support)\nYou can know more about me from the links given below 👇**""",
+                text=f"""**Hey![🤗]({mafia_help_pic}) This is [HokageBot.](https://t.me/Hokage_Userbot)\nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/MafiaBot_Support"),
+                        custom.Button.url("🔥Anime  CHANNEL 🔥 !Recruiting Anime Uploaders!", "https://t.me/Anime_Warz"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/MafiaBot_Chit_Chat"
+                            "⚡Chat GROUP ⚡", "https://t.me/Anime_Talkk"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/MafiaBotOP/MafiaBot"),
+                            "✨ REPO ✨", "https://github.com/Burstsam/Hokage_Userbot"),
                         custom.Button.url
                     (
-                            "🔰 TUTORIAL 🔰", "https://youtu.be/aRFWP4_RCaE"
+                            "Owner", "https://t.me/kingultroid"
                     )
                     ],
                 ],
@@ -130,7 +130,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Legenday AF MafiaBot[⚡🔥]({mafia_help_pic})[.](https://t.me/MafiaBot_Support) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Legenday AF HokageBot[⚡🔥]({mafia_help_pic})[.](https://t.me/Hokage_Ussrbot) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=True,
         )
@@ -138,9 +138,9 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
-            await event.edit(f"⚜️MafiaBot Menu Provider Is now Closed[⚜️]({mafia_help_pic})\n\n         **[© MafiaBot ™](t.me/MafiaBot_Support)**[⚡🔥]({mafia_help_pic})", 5, link_preview=True)
+            await event.edit(f"⚜️Hokage  Menu Provider Is now Closed[⚜️]({mafia_help_pic})\n\n         **[© MafiaBot ™](t.me/MafiaBot_Support)**[⚡🔥]({mafia_help_pic})", 5, link_preview=True)
         else:
-            mafia_alert = "HELLO THERE. PLEASE MAKE YOUR OWN MAFIABOT AND USE. © MafiaBot ™"
+            mafia_alert = "HELLO THERE. PLEASE MAKE YOUR OWN HokageBot AND USE. © HokageUserbot ™"
             await event.answer(mafia_alert, cache_time=0, alert=True)
           
     @tgbot.on(
@@ -149,7 +149,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def Information(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN MAFIABOT AND USE. © MafiaBot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN Hokage AND USE. © Hokage ™",
                 cache_time=0,
                 alert=True,
             )
@@ -182,7 +182,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def commands(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN MAFIABOT AND USE. © MafiaBot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN HokageBot AND USE. © HokageUserBot ™",
                 cache_time=0,
                 alert=True,
             )
