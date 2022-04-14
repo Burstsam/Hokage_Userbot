@@ -49,7 +49,7 @@ def load_module(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        LOGS.info("MafiaBot - Successfully imported " + shortname)
+        LOGS.info("Hokagebot - Successfully imported " + shortname)
     else:
         import userbot.utils
 
