@@ -22,9 +22,9 @@ heroku_api = "https://api.heroku.com"
 HEROKU_APP_NAME = Config.HEROKU_APP_NAME
 HEROKU_API_KEY = Config.HEROKU_API_KEY
 
-mafia_logo = "./H1M4N5HU0P/mafiabot_logo.jpg"
+mafia_logo = "./Hokage_Logo.jpg"
 
-MAFIA_NAME = str(ALIVE_NAME) if ALIVE_NAME else "Mafia User"
+MAFIA_NAME = str(ALIVE_NAME) if ALIVE_NAME else "HokageBot User"
 h1m4n5hu0p = bot.uid
 
 @borg.on(
@@ -167,12 +167,12 @@ async def dyno_usage(dyno):
     await asyncio.sleep(1.5)
 
     return await dyno.edit(
-        "⚡ **Dyno Usage** ⚡:\n\n"
+        "⚡ **Hokage Dyno Usage** ⚡:\n\n"
         f" ➠ `Dyno usage for` • **{Var.HEROKU_APP_NAME}** • :\n"
         f"     ★  `{AppHours}`**h**  `{AppMinutes}`**m**  "
         f"**|**  [`{AppPercentage}`**%**]"
         "\n\n"
-        " ➠ `Dyno hours quota remaining this month`:\n"
+        " ➠ `Dyno hours quota remaining this month of hokage`:\n"
         f"     ★  `{hours}`**h**  `{minutes}`**m**  "
         f"**|**  [`{percentage}`**%**]"
         f"** ➠ Total Space: __GB**"
