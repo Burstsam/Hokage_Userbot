@@ -23,7 +23,7 @@ async def send(event):
     message_id = event.message.id
     thumb = mafia_logo
     input_str = event.pattern_match.group(1)
-    omk = f"**⍟ Plugin name ≈** `{input_str}`\n**⍟ Uploaded by ≈** {mafia}\n\n⚡ **[ʟᴇɢᴇɴᴅᴀʀʏ ᴀғ ᴍᴀғɪᴀʙᴏᴛ](t.me/MafiaBot_Support)** ⚡"
+    omk = f"**⍟ Plugin name ≈** `{input_str}`\n**⍟ Uploaded by ≈** {mafia}\n\n⚡ **[Hokage](t.me/Hokage_Userbot)** ⚡"
     the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         lauda = await event.client.send_file(
@@ -140,5 +140,5 @@ CmdHelp("core").add_command(
 ).add_command(
   "send", "<file name>", "Sends the given file from your userbot server, if any.", "send alive"
 ).add_command(
-  "cmds", None, "Gives out the list of modules in mafiabot."
+  "cmds", None, "Gives out the list of modules in hokagebot."
 ).add()
