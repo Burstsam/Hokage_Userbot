@@ -10,4 +10,4 @@ RUN pip3 install -U -r requirements.txt
 
 ENV PATH="/home/userbot/bin:$PATH"
 
-CMD ["bash","./Burstsam/start.sh"]
+CMD ["bash","./start.sh"]
