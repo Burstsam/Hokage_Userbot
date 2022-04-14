@@ -24,7 +24,7 @@ from mafiabot.plugins.sql_helper.fban_sql import (
 
 logs_id = Config.FBAN_LOGGER_GROUP
 bot = "@MissRose_bot"
-mafia_logo = "./H1M4N5HU0P/mafiabot_logo.jpg"
+mafia_logo = "./Hokage_Logo.jpg"
 # Keep all credits pls
 # madewith great effort by @HeisenbergTheDanger
 # modified by @kraken_the_badass for fbans
@@ -458,7 +458,7 @@ async def _(event):
                         event.chat_id,
                         massive,
                         thumb=thumb,
-                        caption=f"List of feds {user} has been banned in.\n\n**⚡ [Collected using MafiaBot](t.me/MafiaBot_Support) ⚡**",
+                        caption=f"List of feds {user} has been banned in.\n\n**⚡ [Collected using Hokage](t.me/Hokage_Userbot) ⚡**",
                     )
                 else:
                     await borg.send_message(event.chat_id, massive.text)
@@ -480,7 +480,7 @@ async def _(event):
             await conv.get_response()
             await conv.send_message("/fedinfo " + lavde)
             massive = await conv.get_response()
-            await mafia.edit(massive.text + "\n\n**LEGENDARY_AF_MAFIABOT**")
+            await mafia.edit(massive.text + "\n\n**LEGENDARY_AF_HOKAGEBOT**")
         except YouBlockedUserError:
             await mafia.edit("`Please Unblock` @MissRose_Bot")
             
