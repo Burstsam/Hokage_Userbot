@@ -1,4 +1,4 @@
-Uom userbot import CMD_HELP, CMD_HELP_BOT
+from userbot import CMD_HELP, CMD_HELP_BOT
 import os
 
 COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r".")
